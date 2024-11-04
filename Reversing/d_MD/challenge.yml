@@ -1,0 +1,33 @@
+name: "d\"MD\""
+author: "천혜수"
+category: Reversing
+description: "HACK{valid key 값} \n\n 출제자: 천혜수"
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - {
+        type: "static",
+        content: "HACK{b781cbb29054db12f88f08c6e161c199}",
+        data: "case_insensitive",
+    }
+
+tags:
+    - MD5
+
+files:
+    - dist/dMd
+
+state: visible
+version: "0.1"

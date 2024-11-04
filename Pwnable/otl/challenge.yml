@@ -4,7 +4,9 @@ category: Pwnable
 description: "비밀번호를 입력하면 flag값을 얻을 수 있는데, 
   비밀번호를 자주 까먹어서 적어둔 파일이 어디있더라?
   .... 
-  비밀번호를 해독하고 입력해서  flag 값을 취득하세요!"
+  비밀번호를 해독하고 입력해서  flag 값을 취득하세요!\n\n
+  
+  출제자: 유지원"
 value: 0
 type: dynamic
 
