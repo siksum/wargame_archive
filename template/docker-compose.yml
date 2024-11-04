@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  free_shell:
+    build: .
+    image: "free_shell"
+    ports: 
+      - "5103:5103" #nc
+      - "5103:22" #ssh

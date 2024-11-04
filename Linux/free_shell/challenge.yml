@@ -1,0 +1,32 @@
+name: "free_shell"
+author: "HeroCTF v6"
+category: Linux
+description: "> HeroCTF 2024에 출제된 문제입니다. \n\n
+    서버의 쉘을 어떻게 하면 유효하게 접근할 수 있을까요?"
+
+value: 0
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+protocol: null
+host: null
+
+connection_info: nc 31.220.82.212 5103
+
+flags:
+    - HACK{D0_y0u_kn0w_sh_0pt10ns?}
+
+tags:
+    - Shell Command
+
+files:
+    - src/free_shell.py
+
+state: visible
+
+version: "0.1"

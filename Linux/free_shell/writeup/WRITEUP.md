@@ -1,0 +1,4 @@
+### Exploit
+```shell
+    -s
+```

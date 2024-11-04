@@ -6,4 +6,5 @@ access_token = ctfd_a9d722aed69639577800861fbda7ff10fb6524fe5d866efc54df0f7d30d8
 Pwnable/cat_my_dearest = Pwnable/cat_my_dearest
 Pwnable/otl = Pwnable/otl
 Linux/einstein = Linux/einstein
+Linux/free_shell = Linux/free_shell
 

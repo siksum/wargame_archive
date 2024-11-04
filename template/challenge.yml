@@ -1,0 +1,34 @@
+name: ""
+author: ""
+category: 
+description: ""
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - {
+        type: "static",
+        content: "HACK{'W0w_Are_y0u_a_Superp0wer?}",
+        data: "case_insensitive",
+    }
+
+tags:
+    - System
+    - Pwntools
+
+files:
+    - dist/crypto_answer.txt
+
+state: visible
+version: "0.1"
