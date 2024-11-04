@@ -1,0 +1,26 @@
+name: "우주에 대하여"
+author: "김남령"
+category: Steganography
+description: "우주를 소개합니다!!! Space~~ \n\n 출제자: 김남령"
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{D0_Y0u_Kn0w_z3r0_w1d7h_st3g4n0gr4phy?}"
+
+files:
+    - dist/space.txt
+
+state: visible
+version: "0.1"

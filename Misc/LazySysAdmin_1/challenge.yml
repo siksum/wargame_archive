@@ -1,0 +1,28 @@
+name: "LazySysAdmin"
+author: "HeroCTF v6"
+category: Misc
+description: "시스템 관리자가 전화가 와서는 방금 이상한 행동을 목격했다고 합니다.\n
+    연결되어 있던 서버가 갑자기 종료되었다고 하는데요.\n\n
+    몇 가지 질문을 해보니 시스템 관리자가 의심스러운 웹사이트를 탐색하고 있었다는 것을 알게 되었습니다. \n
+    알고보니 웹사이트에는 악성 코드가 삽입되어 있었습니다.\n\n
+    악성 코드를 찾아주세요!!\n\n
+
+    Flag Format: HACK{악성 URL 주소}
+    "
+
+value: 50
+type: standard
+
+image: null
+host: null
+
+connection_info: "http://31.220.82.212:5106"
+
+flags:
+    - "HACK{https://ghostsik.site/secret/raw}"
+
+tags:
+    - HeroCTF 
+
+state: visible
+version: "0.1"

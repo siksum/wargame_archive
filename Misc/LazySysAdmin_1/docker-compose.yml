@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  lazy_sys_admin:
+    build: .
+    image: "lazy_admin"
+    ports: 
+      - "5106:5106"
