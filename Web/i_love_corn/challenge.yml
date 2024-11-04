@@ -1,0 +1,32 @@
+name: "I Love Corn"
+author: "강예은"
+category: Web
+description: "제가 \"옥수수\"를 좋아한다는 것은 \"사실\"일까요?
+    \n\n(Flag Location: flag.txt)
+    \n\n 출제자: 강예은"
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: "http://54.180.142.243:5000/"
+
+flags:
+    - {
+        type: "static",
+        content: "HACK{I_R3ALLY_R3ALLY_L0V3_CORN!}",
+        data: "case_insensitive",
+    }
+
+files:
+    - dist/app.py
+
+state: visible
+version: "0.1"
