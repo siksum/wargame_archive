@@ -1,0 +1,31 @@
+name: "Cat, My Dearest"
+author: "임예람"
+category: Pwnable
+description: "내 고양이가 사라졌다. 이상한 걸 주워 먹기 전에 빨리 찾아내자. \n\n 출제자: 임예람"
+value: 0
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: "ssh user@31.220.82.212 -p 5100 (pw: password)"
+
+flags:
+    - {
+        type: "static",
+        content: "HACK{ther3_15_my_K17ty!}",
+        data: "case_insensitive",
+    }
+
+tags:
+    - System
+    - PATH
+
+
+state: visible
+version: "0.1"

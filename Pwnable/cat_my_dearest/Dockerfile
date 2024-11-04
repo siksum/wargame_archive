@@ -15,14 +15,14 @@ RUN adduser --disabled-password --gecos "" user_pwn && \
     ln -sf /dev/null /home/user_pwn/.bash_history
 
 # Copy challenge files
-COPY --chown=user_pwn:user_pwn CatMyDearest.c /home/user/CatMyDearest.c
+COPY --chown=user_pwn:user_pwn ./src/CatMyDearest.c /home/user/CatMyDearest.c
 RUN gcc /home/user/CatMyDearest.c -o /home/user/CatMyDearest && \
     chown user_pwn:user_pwn /home/user/CatMyDearest && \
     chmod +x /home/user/CatMyDearest && \
     chmod +s /home/user/CatMyDearest
 
 # Write flag
-COPY --chown=user_pwn:user_pwn flag /home/user_pwn/flag 
+COPY --chown=user_pwn:user_pwn ./src/flag /home/user_pwn/flag 
 RUN chmod 400 /home/user_pwn/flag
 
 # Copy starup file to container and run it
