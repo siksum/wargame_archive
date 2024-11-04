@@ -5,7 +5,7 @@ description: "직원의 워크스테이션 중 하나에서 의심스러운 파�
 
     ZIP password: `InfecteD`<br>
     Hash : `3dfa0a81199f73797a455fd2625c7afc58cabda0a64cd9bc0826160eb1fd2983`<br><br>
-    Format : `HACK{file-extention;sha256(file)}`\n"
+    Flag Format : `HACK{file-extention;sha256(file)}`\n"
 
 value: 50
 type: standard
@@ -18,6 +18,9 @@ flags:
 
 files: 
   - dist/Suspect_file.zip
+
+tags:
+    - HeroCTF
 
 state: visible
 version: "0.1"
