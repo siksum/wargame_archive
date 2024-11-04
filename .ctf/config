@@ -8,4 +8,5 @@ Pwnable/otl = Pwnable/otl
 Linux/einstein = Linux/einstein
 Linux/free_shell = Linux/free_shell
 Reversing/d_MD = Reversing/d_MD
+Forensic/find_the_flag = Forensic/find_the_flag
 
