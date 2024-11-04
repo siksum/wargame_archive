@@ -1,0 +1,30 @@
+name: "Dinosaur"
+author: "전예은"
+category: Forensic
+description: "공룡에겐 열쇠가 있습니다. 열쇠를 찾아 비밀을 밝혀주시겠어요? \n\n 출제자: 전예은"
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+
+flags:
+    - {
+        type: "static",
+        content: "HACK{yougottheflag}",
+        data: "case_insensitive",
+    }
+
+files:
+    - dist/ciphertext.txt
+    - dist/meteorite.png
+
+state: visible
+version: "0.1"
