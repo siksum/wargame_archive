@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cat_my_dearest:
+    build: .
+    image: "cat_my_dearest"
+    ports: 
+      - "5100:22"
