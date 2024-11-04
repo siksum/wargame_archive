@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  einstein:
+    build: .
+    image: "einstein"
+    ports: 
+      - "5102:22"

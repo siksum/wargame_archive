@@ -1,0 +1,34 @@
+name: "식이의 einstein 공부"
+author: "HeroCTF v6"
+category: Linux
+description: "> HeroCTF 2024에 출제된 문제입니다. \n\n
+    1. The laws of physics are the same for all observers in any inertial frame of reference relative to one another (principle of relativity).\n
+    2. The speed of light in vacuum is the same for all observers, regardless of their relative motion or of the motion of the light source.\n
+
+    Source: https://en.wikipedia.org/wiki/Theory_of_relativity"
+
+value: 0
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: "ssh sikk@31.220.82.212 -p 5102(pw: password)"
+
+flags:
+    - {
+        type: "static",
+        content: "HACK{th30ry_of_r3l4tiv3_p4th5}",
+        data: "case_insensitive",
+    }
+
+tags:
+    - Shell Command
+
+state: visible
+version: "0.1"

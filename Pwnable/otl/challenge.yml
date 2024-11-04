@@ -21,7 +21,7 @@ connection_info: "nc 31.220.82.212 5101"
 flags:
     - {
         type: "static",
-        content: " HACK{'W0w_Are_y0u_a_Superp0wer?}",
+        content: "HACK{'W0w_Are_y0u_a_Superp0wer?}",
         data: "case_insensitive",
     }
 
