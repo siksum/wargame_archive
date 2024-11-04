@@ -1,7 +1,7 @@
-name: "Find The Flag"
-author: "천혜수"
+name: "대학원생의 마음"
+author: "전예은"
 category: Forensic
-description: "png, jpg 파일만 가지는 특성을 생각하면 flag를 쉽게 찾을 수 있는 문제입니다. \n\n 출제자: 천혜수"
+description: "여기 한 대학원생이 있습니다. 이 친구는 요즘 이런 상태라고 하는데...? \n\n 출제자: 전예은"
 value: 0
 
 type: dynamic
@@ -19,12 +19,13 @@ connection_info: ""
 flags:
     - {
         type: "static",
-        content: "HACK{can_y0u_f1nd_th15_text?}",
+        content: "HACK{iamgamja}",
         data: "case_insensitive",
     }
 
 files:
-    - dist/find_the_flag.png
+    - dist/hint.jpeg
+    - dist/jollup.zip
 
 state: visible
 version: "0.1"
