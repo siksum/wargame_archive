@@ -1,0 +1,28 @@
+name: "Simple Site! TryIngggg"
+author: "김남령"
+category: Web
+description: "아무것도 없는 이 페이지에서 무엇을 하면 flag를 만날 수 있을까요?"
+value: 100
+
+type: standard
+
+image: null
+host: null
+
+connection_info: "http://31.220.82.212:5104"
+
+flags:
+    - {
+        type: "static",
+        content: "HACK{SST1_1s_5tr0ng!}",
+        data: "case_insensitive",
+    }
+
+tags:
+    - SSTI
+
+files:
+    - src/app.py
+
+state: visible
+version: "0.1"

@@ -1,0 +1,46 @@
+name: "CAT"
+author: "SCAN 2024"
+category: Blockchain
+description: "익명의 랜섬웨어 그룹이 'CAT' 랜섬웨어를 개발했으며, 이는 전 세계의 다양한 기기를 감염시키는 글로벌 위협이 되고 있습니다. 피해 규모는 엄청나며, 전 세계적으로 데이터 손실이 발생하고 있습니다. \n\n
+    피해자들은 랜섬웨어에 감염된 파일을 복구하기 위해 특정 브로커 주소로 10,500 BSV를 전송해야 합니다. 브로커는 결제를 확인한 후 수수료를 공제하고 나머지를 마스터 주소로 전송합니다. 마스터 주소에서 결제를 확인하면 ScriptPubKey를 사용하여 스크립트를 생성하고, 피해자가 ScriptSig를 통해 입력 조건을 충족하면 복구 키 생성이 확인됩니다. \n\n
+    지금부터 우리는 조사관이 되어 랜섬웨어 그룹의 운영, 자금 관리 및 스크립트 세부 정보를 추적해야 합니다. 목표는 피해자들이 비용을 지불하지 않고도 복구 키를 생성할 수 있도록 복구 키 생성 알고리즘을 분석하는 것입니다.\n\n
+    
+    **Environment Information:**\n
+    - **Chain:** Bitcoin Satoshi Vision (Testnet, Node Version: Bitcoin SV:1.1.0)\n
+    - **Explorer:** [Whatsonchain Testnet Explorer](https://test.whatsonchain.com/)\n
+    - **Timeframe:** Wed Oct 15 ~ 17\n
+    - **Faucet:** [Witness on Chain Faucet](https://witnessonchain.com/v1/faucet/tbsv)\n
+    - **Asset:** BSV (Native)\n\n
+
+    주어진 피해자 주소를 기반으로 CAT 랜섬웨어 복구 키를 받기 위해 브로커에게 BSV를 보내는 패턴을 분석하세요.\n\n
+    주어진 피해자 외의 다른 피해자들의 주소, 브로커들의 주소, 마스터의 주소를 알아내야 합니다.\n\n
+
+    - 피해자 주소: `mjhMMJ2Rhu9MDNVY9udxS9U9yK4KMWY1JA` \n
+    > 피해자, 브로커, 마스터 주소는 `^[mn][a-zA-Z0-9]{33}` 조건을 만족합니다.
+    \n\n
+
+    - Flag Format: `HACK{피해자주소1,피해자주소2,...:브로커주소1,브로커주소2...:마스터주소}` \n
+    - 피해자와 브로커 주소는 `내림차순` 정렬하여 띄워쓰기 없이 `콤마(,)`를 기준으로 나열해주세요.
+    "
+value: 100
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - {
+        type: "static",
+        content: "HACK{n4r9C1oX6ovAknxBi46PDDE4gwpX7Yx3HR,n2UPxWYipDNSwr6FFRYLpAZQEYAWJbPM9X,n2FeVSexiK5UfnWn8H7zpMFfGyYx8onp9g,mzs2p7K9koSsCo1o7WkLzuiqSU9Q9adtVc,mwoqwSohmN8CYjnHgaVR6jkK4Gi6QvVgcy,mp6usjn35kzwLeuReRbWU1YXFzszp7hoRb,mofq86bHcKh3JN99V6oyC9yDhdzvCqCHaq,mmAJ5d35HYv6LLEFAacQ1wMcbeu3Uz9dTZ,mjhMMJ2Rhu9MDNVY9udxS9U9yK4KMWY1JA:mrczRAsCPKbSwnyCwc6FY7HzTDzUAP2DEf,mppJi8gGGjWEdzahhH3MdbBjNXEwE3hVxJ,mjfUXLaQgVYK4Meas1TnYbBZbNCFJmxqgC:mhbqfwLN6Lw2dAjvsYCNcmc3HERbBx1eAW}",
+        data: "case_insensitive",
+    }
+
+tags:
+    - SCAN 2024
+
+
+state: visible
+version: "0.1"
