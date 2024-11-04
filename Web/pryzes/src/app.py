@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 app = Flask(__name__)
-FLAG = getenv("FLAG", "Hero{FAKE_FLAG}")
+FLAG = getenv("FLAG", "HACK{PrYze5_4r3_4m4z1ng_l0v3_1t!}")
 
 def compute_sha256(data):
     sha256_hash = hashlib.sha256()
@@ -44,4 +44,4 @@ def claim_prizes():
 
 
 if __name__ == "__main__":
-    app.run(debug=False, host="0.0.0.0", port=5000)
+    app.run(debug=False, host="0.0.0.0", port=5105)

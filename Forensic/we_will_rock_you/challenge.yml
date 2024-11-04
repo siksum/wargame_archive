@@ -1,0 +1,27 @@
+name: "we will rock!! you"
+author: "김남령"
+category: Forensic
+description: "여름이는 비밀이 많은 강아지이죠. 여름이에게 간식을 준다면 flag를 줄지도?\n\n
+    hint: 여름이는 \"이것\"으로 보살펴야 합니다.\n\n
+    Flag Format: HASH{**flag**}"
+value: 100
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - {
+        type: "static",
+        content: "HASH{St3g!_ST3gH1d3!}",
+        data: "case_insensitive",
+    }
+
+files:
+    - dist/summer.jpg
+
+state: visible
+version: "0.1"
