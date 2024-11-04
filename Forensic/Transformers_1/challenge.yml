@@ -1,0 +1,23 @@
+name: "Transformers #1"
+author: "HeroCTF v6"
+category: Forensic
+description: "직원의 워크스테이션 중 하나에서 의심스러운 파일이 발견되었습니다. \n 직원은 이메일 첨부 파일에서 .iso 파일을 검색했다고 합니다. \n\n iso에 포함된 파일을 찾아 파일 형식을 식별하고 sha256 값을 계산해주세요.\n\n
+
+    ZIP password: `InfecteD`<br>
+    Hash : `3dfa0a81199f73797a455fd2625c7afc58cabda0a64cd9bc0826160eb1fd2983`<br><br>
+    Format : `HACK{file-extention;sha256(file)}`\n"
+
+value: 50
+type: standard
+
+image: null
+host: null
+
+flags:
+    - "HACK{lnk;c3bb38b34c7dfbb1e9e9d588d77f32505184c79cd3628a70ee6df6061e128f3e}"
+
+files: 
+  - dist/Suspect_file.zip
+
+state: visible
+version: "0.1"
