@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Console</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            padding: 20px;
+        }
+        #console-container {
+            border: 2px solid #cccccc;
+            background-color: #ffffff;
+            padding: 10px;
+            height: 80px;
+        }
+        #console {
+            height: 50px;
+            overflow-y: scroll;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        #input-container {
+            display: flex;
+            align-items: center;
+        }
+        #prompt {
+            margin-right: 5px;
+        }
+        #input {
+            width: 100%;
+            border: none;
+            background: #ffffff;
+            color: #000000;
+            padding: 5px;
+            font-family: inherit;
+            outline: none;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Console</h1>
+    <p>In this console you can execute Python expressions in the context of the application. The initial namespace was created by the debugger automatically.</p>
+    <div id="console-container">
+        <div id="console">
+            <span>[console ready]</span>
+        </div>
+        <div id="input-container">
+            <span id="prompt">>>> </span>
+            <input type="text" id="input" name="command" />
+        </div>
+    </div>
+    <script>
+        const input = document.getElementById('input');
+        const consoleDiv = document.getElementById('console');
+
+        input.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                const command = input.value;
+                consoleDiv.innerHTML += '<div><span>></span> ' + command + '</div>';
+                fetch('/execute', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: 'command=' + encodeURIComponent(command)
+                })
+                .then(response => response.text())
+                .then(data => {
+                    consoleDiv.innerHTML += '<div>' + data + '</div>';
+                    input.value = '';
+                    consoleDiv.scrollTop = consoleDiv.scrollHeight;
+                });
+            }
+        });
+    </script>
+</body>
+</html>

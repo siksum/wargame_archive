@@ -16,7 +16,7 @@ extra:
 image: null
 host: null
 
-connection_info: "http://54.180.142.243:5000/"
+connection_info: "http://31.220.82.212:5108"
 
 flags:
     - {

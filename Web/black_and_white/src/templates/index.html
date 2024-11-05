@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인 화면</title>
+    <style>
+        img {
+            width: 300px;
+            margin: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Are you Black Hat or White Hat?</h1>
+    <a href="/blackhat">
+        <img src="{{ url_for('static', filename='blackhat.jpg') }}" alt="Black Hat" />
+    </a>
+    <br>
+    <a href="/whitehat">
+        <img src="{{ url_for('static', filename='whitehat.jpg') }}" alt="White Hat" />
+    </a>
+</body>
+</html>

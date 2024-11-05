@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are you Black Hat?</title>
+</head>
+<body>
+    <h1>Are you Black Hat?</h1>
+    <form method="POST">
+        <input type="text" name="input_val" placeholder="입력하세요" required>
+        <button type="submit">확인</button>
+    </form>
+
+    {% if flag is not none %}
+        <h3>Flag: {{ flag }}</h3>
+    {% endif %}
+
+<br>
+<a href="/">
+    <button>Home</button>
+</a>
+</body>
+</html>
