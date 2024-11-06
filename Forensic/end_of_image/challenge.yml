@@ -1,0 +1,24 @@
+name: "End Of Image"
+author: "xcz.kr"
+category: Forensic
+description: ""
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{JOg-dragonKER}"
+
+files:
+    - dist/image.png
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
