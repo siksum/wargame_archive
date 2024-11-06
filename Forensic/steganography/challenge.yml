@@ -1,0 +1,27 @@
+name: "Steganography"
+author: "xcz.kr"
+category: Forensic
+description: "Hint1. Decode Key = Using Tool Name\n\n
+    Hint2. Tool Name = O***P***\n\n
+    Hint3. Just use only O***P***\n\n
+    Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{OPEN_ChronoTrigger1995_PUFF}"
+
+files:
+    - dist/WindScene.mp3
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
