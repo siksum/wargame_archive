@@ -1,0 +1,24 @@
+name: "NemoNemo"
+author: "xcz.kr"
+category: Forensic
+description: "키를 찾으시오.\n\nFlag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{I_hate_N0nOgr4nn}"
+
+files:
+    - dist/image.png
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
