@@ -1,0 +1,27 @@
+name: "Rendezvous"
+author: "xcz.kr"
+category: Forensic
+description: "A 씨는 문제의 답을 찾기위해 오랜 친구와 비밀접선을 했다.\n\n
+    키를 찾으시오.\n\n
+    키 형식 : md5(오랜친구의 IP_포트_키)\n\n
+    예) 127.0.0.1_12345_Key\n\nFlag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{775272c47334b54451ee36a9399e8aa6}"
+
+files:
+    - dist/contact.pcap
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
