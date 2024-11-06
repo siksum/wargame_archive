@@ -35,4 +35,5 @@ Forensic/xls_key_brute_force = Forensic/xls_key_brute_force
 Forensic/steganography = Forensic/steganography
 Network/network_recovery = Network/network_recovery
 Forensic/crypto = Forensic/crypto
+Forensic/tic_tac_toe = Forensic/tic_tac_toe
 
