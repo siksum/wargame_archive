@@ -1,0 +1,24 @@
+name: "I don't speak English"
+author: "xcz.kr"
+category: Forensic
+description: "Find the [Key].\n\nFlag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{gangpsynam}"
+
+files:
+    - dist/challenge.txt
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
