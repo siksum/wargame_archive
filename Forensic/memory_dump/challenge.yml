@@ -1,0 +1,31 @@
+name: "Memoryyyyy Dumpppppp"
+author: "xcz.kr"
+category: Forensic
+description: "어느날 나는 커피집에서 노트북을 놓고 잠시 자리를 비웠다.\n\n
+    그리고 다시 와서 작업을 하다가 작업프로그램이 갑자기 꺼졌고, 작업파일들이 모두 다 삭제되었다.\n\n
+    원인을 찾기위해 나는 서둘러 메모리 덤프를 만들었다.\n\n
+    이 메모리 덤프파일을 분석하여 다음 정보를 알아내자.\n\n
+    키 형식 : (Process Name_PID_Port_Process Execute Time(Day of the week-Month-Day-Hour:Min:Sec-Years)\n\n
+    ex (explorer.exe_1234_7777_Mon-Jan-01-12:00:00-2012)\n\n
+    Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{nc.exe_1124_80_Fri-Nov-02-09:06:48-2012}"
+
+files:
+    - dist/xczprob2.7z.001
+    - dist/xczprob2.7z.002
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"

@@ -41,4 +41,5 @@ Network/password_recover = Network/password_recover
 Reversing/revershit = Reversing/revershit
 Forensic/whos_notebook = Forensic/whos_notebook
 Forensic/zero_and_one = Forensic/zero_and_one
+Forensic/memory_dump = Forensic/memory_dump
 
