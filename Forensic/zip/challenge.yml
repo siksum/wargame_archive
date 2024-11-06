@@ -1,0 +1,27 @@
+name: "ZIP"
+author: "xcz.kr"
+category: Forensic
+description: "해커그룹 'XCZ' 에서는 데이터를 전송할 때 파일이 외부로 유출되더라도 볼 수 없게 숨겨놨다고 한다.\n\n
+    아래의 파일에서 숨겨져 있는 파일을 찾아라.\n\n
+    HINT 1 : RAR 패스워드 브루트포싱 문제가 아닙니다.\n\n
+    Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{z1p_1t_f0rmat_1t}"
+
+files:
+    - dist/format_it.zip
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
