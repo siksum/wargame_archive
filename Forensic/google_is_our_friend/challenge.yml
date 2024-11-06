@@ -1,0 +1,24 @@
+name: "Google Is Our Friend."
+author: "xcz.kr"
+category: Forensic
+description: "Hint: Key is composed of UpperCase.\n\nFind 'Common Word'\n\nFlag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{SMALLTALK}"
+
+files:
+    - dist/cw.zip
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
