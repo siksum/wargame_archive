@@ -1,7 +1,7 @@
-name: "End Of Image"
+name: "Listen Carefully!"
 author: "xcz.kr"
 category: Forensic
-description: "Flag Format: HACK{ ** flag **}"
+description: "Hint: Auth Key = Upper Case \n\nFlag Format: HACK{ ** flag **}"
 value: 50
 
 type: standard
@@ -12,10 +12,10 @@ host: null
 connection_info: ""
 
 flags:
-    - "HACK{JOg-dragonKER}"
+    - "HACK{MORSECODE}"
 
 files:
-    - dist/image.png
+    - dist/morse.wav
 
 tags:
     - xcz.kr
