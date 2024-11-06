@@ -1,0 +1,24 @@
+name: "Easy Reversing"
+author: "xcz.kr"
+category: Reversing
+description: "Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{RevERsingisfun!!}"
+
+files:
+    - dist/REV.exe
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
