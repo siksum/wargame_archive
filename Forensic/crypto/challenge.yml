@@ -1,0 +1,25 @@
+name: "Crypto.....?"
+author: "xcz.kr"
+category: Forensic
+description: "Hint1. Foreign Language\n\n 
+    Hint2. Key is UpperCase\n\n
+    <code>nutantvictorantjackassowlantlambpighorseantbearelkturkey</code>\n\n
+    Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{NAVAJOALPHABET}"
+
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"

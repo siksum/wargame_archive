@@ -1,6 +1,6 @@
 name: "Network Recovery!"
 author: "xcz.kr"
-category: Forensic
+category: Network
 description: "Key Format = lowercase(md5(\"Key\"))\n\n
     Flag Format: HACK{ ** flag **}"
 value: 50
