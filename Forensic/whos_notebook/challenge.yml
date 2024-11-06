@@ -1,0 +1,29 @@
+name: "Who's Notebook?"
+author: "xcz.kr"
+category: Forensic
+description: "내친구 A는 어느날 출근길에 누군가 잃어버린 것 같은 노트북을 발견한다.\n\n
+    A는 이 노트북을 주인에게 찾아주고 싶지만 찾을 방법을 몰라서 포렌서인 나에게 노트북을 맡기게된다.\n\n
+    이 노트북의 주인을 찾아주자.\n\n
+    인증키 형식 : 출발지_거쳐가는곳(1곳)_최종도착지\n\n
+    인증키는 모두 대문자로, 띄어쓰기무시\n\n
+    예) PLACE1_PLACE2_PLACE3\n\nFlag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{GONGDEOK_GIMPOINTERNATIONALAIRPORT_7-ELEVEN}"
+
+files:
+    - dist/notebook
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
