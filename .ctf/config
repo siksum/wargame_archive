@@ -33,4 +33,5 @@ Reversing/easy_reversing = Reversing/easy_reversing
 Forensic/frozen_monitor = Forensic/frozen_monitor
 Forensic/xls_key_brute_force = Forensic/xls_key_brute_force
 Forensic/steganography = Forensic/steganography
+Forensic/network_recovery = Forensic/network_recovery
 

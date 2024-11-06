@@ -1,0 +1,25 @@
+name: "Network Recovery!"
+author: "xcz.kr"
+category: Forensic
+description: "Key Format = lowercase(md5(\"Key\"))\n\n
+    Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{NET\\oRK1sFun}"
+
+files:
+    - dist/network_recover
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
