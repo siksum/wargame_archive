@@ -38,4 +38,5 @@ Forensic/crypto = Forensic/crypto
 Forensic/tic_tac_toe = Forensic/tic_tac_toe
 Forensic/mountains_beyond_mountains = Forensic/mountains_beyond_mountains
 Network/password_recover = Network/password_recover
+Reversing/revershit = Reversing/revershit
 

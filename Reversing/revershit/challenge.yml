@@ -1,0 +1,28 @@
+name: "Revershit!"
+author: "xcz.kr"
+category: Reversing
+description: "B never good at studying doesn't\n\n
+    But, she has a lot of interest in the computer.\n\n
+    So, she likes computer.\n\n
+    Hint1. key is the ASCII code area.\n\n
+    Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{XCZREVERSING}"
+
+files:
+    - dist/level3.exe
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
