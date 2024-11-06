@@ -1,0 +1,24 @@
+name: "Frozen Monitor"
+author: "xcz.kr"
+category: Forensic
+description: "Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{col0RC0L()r}"
+
+files:
+    - dist/image.png
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
