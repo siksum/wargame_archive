@@ -1,0 +1,28 @@
+name: "File Deleted"
+author: "xcz.kr"
+category: Forensic
+description: "피시방에서 아동 청소년 보호법에 위배되는 파일을 소지한 기록을 발견했다.\n\n
+    아래의 형식에 맞춰 증거를 수집해라.\n\n
+    시간은 GMT+9 입니다. lowercase(md5(원본 경로_만들어진 시간_마지막 실행 된 시간_쓰인 시간_볼륨 시리얼))\n\n
+    ex)lowercase(md5(C:\\XCZ\\key.txt_20121021160000_20131022000000_20131022000000_AAAA-BBBB))\n\n
+    Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{66f67cd42c58763fd8d58eed6b5bfdba}"
+
+files:
+    - dist/file_deleted.7z
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"

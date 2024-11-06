@@ -47,4 +47,5 @@ Forensic/rendezvous = Forensic/rendezvous
 Forensic/nemonemo = Forensic/nemonemo
 Reversing/easy_dll = Reversing/easy_dll
 Forensic/zip = Forensic/zip
+Forensic/file_deleted = Forensic/file_deleted
 
