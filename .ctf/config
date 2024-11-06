@@ -45,4 +45,5 @@ Forensic/memory_dump = Forensic/memory_dump
 Forensic/xcz_company_hacking_incident = Forensic/xcz_company_hacking_incident
 Forensic/rendezvous = Forensic/rendezvous
 Forensic/nemonemo = Forensic/nemonemo
+Reversing/easy_dll = Reversing/easy_dll
 

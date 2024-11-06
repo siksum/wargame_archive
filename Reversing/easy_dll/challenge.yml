@@ -1,0 +1,24 @@
+name: "Easy DLL"
+author: "xcz.kr"
+category: Reversing
+description: "키를 찾으시오.\n\nFlag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{ekfldntmtkrldi}"
+
+files:
+    - dist/prob30.dll
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
