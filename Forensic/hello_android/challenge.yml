@@ -1,0 +1,24 @@
+name: "Hello, Android!"
+author: "xcz.kr"
+category: Forensic
+description: "Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{U5i_ng_ad_b_is_v2ry_e5sy}"
+
+files:
+    - dist/avd.7z
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
