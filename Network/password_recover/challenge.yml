@@ -1,0 +1,27 @@
+name: "Password Recover..."
+author: "xcz.kr"
+category: Network
+description: "Hi, I'M ZZANGHACKER.\n\n
+    I Lost My Password in XCZ.KR T.T\n\n
+    Help Me!!\n\n
+    Flag Format: HACK{ ** flag **}"
+value: 50
+
+type: standard
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{IMZZANGHACKER}"
+
+files:
+    - dist/my_pw.pcapng
+
+tags:
+    - xcz.kr
+
+state: visible
+version: "0.1"
