@@ -1,0 +1,29 @@
+name: "Discord 1"
+author: "김남령"
+category: Misc
+description: "여름이가 디스코드에 등장했습니다!!\n\n여름이랑 대화해볼 수 있는 절호의 찬스!~!\n\n
+    `Summer 1` 봇과 대화해보세요! 개인 채팅을 하셔야 합니다."
+
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{C@n_y0u_man1pulat3_D1sc0rd_B0t?}"
+
+tags:
+    - Discord 
+
+state: visible
+version: "0.1"

@@ -15,7 +15,7 @@ host: null
 connection_info: ""
 
 flags:
-    - "HACK{IMZZANGHACKER}"
+    - "HACK{IDISLIE}"
 
 files:
     - dist/my_pw.pcapng

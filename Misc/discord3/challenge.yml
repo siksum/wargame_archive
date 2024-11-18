@@ -1,0 +1,32 @@
+name: "Discord 3"
+author: "김남령"
+category: Misc
+description: "여름이는 언니에게 비밀을 들었다고 합니다.\n\n
+    그렇지만 입이 무거운 강아지 여름이는 아무랑 말하지 않습니다..\n\n
+    여름이의 친구가 되어 비밀이 무엇인지 확인해보세요!\n\n
+    `Summer 3` 봇과 대화해보세요! \n\n
+    각자 디스코드에 개설해드린 `xx이랑-여름이랑-대화해요` 채널에서 이야기 해보시면 됩니다."
+
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{D0_y0u_h4v3_perm1ss0n?}"
+
+tags:
+    - Discord 
+
+state: visible
+version: "0.1"

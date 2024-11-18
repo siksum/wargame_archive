@@ -23,7 +23,7 @@ Forensic/Transformers_1 = Forensic/Transformers_1
 Forensic/Transformers_2 = Forensic/Transformers_2
 Forensic/end_of_image = Forensic/end_of_image
 Forensic/listen_carefully = Forensic/listen_carefully
-Forensic/i_dont_speak_english = Forensic/i_dont_speak_english
+Crypto/i_dont_speak_english = Crypto/i_dont_speak_english
 Forensic/hello_android = Forensic/hello_android
 Forensic/easy_android = Forensic/easy_android
 Forensic/adieu_starcraft1 = Forensic/adieu_starcraft1
@@ -48,4 +48,7 @@ Forensic/nemonemo = Forensic/nemonemo
 Reversing/easy_dll = Reversing/easy_dll
 Forensic/zip = Forensic/zip
 Forensic/file_deleted = Forensic/file_deleted
+Misc/discord1 = Misc/discord1
+Misc/discord2 = Misc/discord2
+Misc/discord3 = Misc/discord3
 

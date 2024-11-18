@@ -15,7 +15,7 @@ flags:
     - "HACK{col0RC0L()r}"
 
 files:
-    - dist/image.png
+    - dist/frozenmoniter.png
 
 tags:
     - xcz.kr

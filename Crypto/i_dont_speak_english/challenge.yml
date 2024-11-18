@@ -1,7 +1,7 @@
 name: "I don't speak English"
 author: "xcz.kr"
-category: Forensic
-description: "Find the [Key].\n\nFlag Format: HACK{ ** flag **}"
+category: Crypto
+description: "Find the [Key].\n\n flag는 소문자입니다. \n\n Flag Format: HACK{ ** flag **}"
 value: 50
 
 type: standard

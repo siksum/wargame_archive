@@ -1,0 +1,29 @@
+name: "Discord 2"
+author: "김남령"
+category: Misc
+description: "여름이는 주사위 게임을 좋아합니다\n\n여름이와의 대결에서 승리하고 flag를 쟁취하세요!\n\n
+    `Summer 2` 봇과 대화해보세요! 개인 채팅을 하셔야 합니다."
+
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{D1sc0rd_B0t_Als0_C@n_P1aY_D1c3_G@M3!}"
+
+tags:
+    - Discord 
+
+state: visible
+version: "0.1"
