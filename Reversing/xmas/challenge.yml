@@ -1,0 +1,26 @@
+name: "크리스마스기념함수대축제!!!"
+author: "천혜수"
+category: Reversing
+description: "크리스마스를 위해 함수를 많이 준비해 왔어요! 함수 속에서 선물과도 같은 플래그를 찾아보시길... \n\n 출제자: 천혜수"
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - HACK{HAPPYCHRISTMAS}
+
+files:
+    - dist/hmmm
+
+state: visible
+version: "0.1"

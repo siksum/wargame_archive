@@ -1,0 +1,32 @@
+name: "엔디언에 대해 잘 아시나요? 전..."
+author: "천혜수"
+category: Pwnable
+description: "컴퓨터랑 우리는 뭔갈 써두는 방식조차 다르더라고요? 너무 어려워요 너무너무너무\n\n
+  
+  출제자: 천혜수"
+value: 0
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: "nc 31.220.82.212 5109"
+
+flags:
+    - "HACK{h4ck1ng1550000d1f1cu1t}"
+    
+
+tags:
+    - System
+
+files:
+    - dist/thinkaboutendian.c
+    - dist/flag
+
+state: visible
+version: "0.1"
