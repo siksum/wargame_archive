@@ -1,0 +1,23 @@
+name: "How do I login?"
+author: "강예은"
+category: Web
+description: "Flag: HACK{}\n\n 출제자: 강예은"
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: "http://31.220.82.212:5111"
+
+flags:
+    - HACK{y0u_H4ve_suCcessFully_lOgGeD_IN!}
+
+state: visible
+version: "0.1"

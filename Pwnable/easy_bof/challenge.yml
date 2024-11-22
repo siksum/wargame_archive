@@ -1,0 +1,27 @@
+name: "eaaaaaaaaaasy BOF"
+author: "임예람"
+category: Pwnable
+description: "연습한 만큼 한 번 해보자구용 \n\n 출제자: 임예람"
+value: 0
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: "ssh user@31.220.82.212 -p 5100 (pw: password)"
+
+flags:
+    - "HACK{Too_3aSy_t0OOO_3aSy}"
+       
+tags:
+    - System
+    - PATH
+
+
+state: visible
+version: "0.1"
