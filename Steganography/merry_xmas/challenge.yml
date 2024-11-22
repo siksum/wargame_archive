@@ -1,0 +1,30 @@
+name: "Merry X-Mas!"
+author: "전예은"
+category: Steganography
+description: "안녕~ 나는 눈사람이야!\n\n
+    앗! 그런데 지금 내 모습은 온전치 않아...\n\n
+    나를 원래대로 돌려준다면 KEY를 알려줄게!\n\n
+    KEY Type : English\n\n
+    Flag Format : HACK{}\n\n 출제자: 전예은"
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{WeWishYouAMerryChristmas}"
+
+files:
+    - dist/file.zip
+
+state: visible
+version: "0.1"

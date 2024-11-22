@@ -1,0 +1,28 @@
+name: "Matroska"
+author: "전예은"
+category: Steganography
+description: "까도까도 끝이 없는 양파같은 마트료시카...이 안에 무언가 숨어있다는데...?!\n\n
+    Key Hint : Country\n\n
+    Flag Format : HACK{}\n\n 출제자: 전예은"
+value: 0
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: ""
+
+flags:
+    - "HACK{NeverEnding}"
+
+files:
+    - dist/Large.png
+
+state: visible
+version: "0.1"
