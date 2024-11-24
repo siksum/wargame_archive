@@ -10,7 +10,7 @@ RUN useradd -m ctf
 WORKDIR /home/ctf
 
 COPY src/vuln.c /home/ctf/
-COPY src/ flag /home/ctf/
+COPY src/flag /home/ctf/
 
 RUN gcc -fno-stack-protector -z execstack -o vuln vuln.c && \
     chmod 4755 vuln && \

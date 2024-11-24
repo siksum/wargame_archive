@@ -1,0 +1,25 @@
+name: "나를 찾아주세요"
+author: "유지원"
+category: Pwnable
+description: "숨김파일을 찾는 방법 :  \n\n
+  
+  출제자: 유지원"
+value: 0
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: "ssh user@31.220.82.212 -p 5112 (pw: password)"
+
+flags:
+    - "HACK{WOW_H0w_d1d_you_Find_1T?}"
+    
+
+state: visible
+version: "0.1"

@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  findme:
+    build: .
+    image: "findme"
+    ports: 
+      - "5112:22"

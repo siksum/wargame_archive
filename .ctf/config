@@ -56,4 +56,7 @@ Reversing/xmas = Reversing/xmas
 Steganography/merry_xmas = Steganography/merry_xmas
 Steganography/matroska = Steganography/matroska
 Web/login = Web/login
+AWS/in_the_bucket = AWS/in_the_bucket
+Pwnable/easy_bof = Pwnable/easy_bof
+Pwnable/find_me = Pwnable/find_me
 

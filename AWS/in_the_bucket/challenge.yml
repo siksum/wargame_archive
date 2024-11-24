@@ -3,7 +3,9 @@ author: "임예람"
 category: AWS
 description: "하여튼 우리집 고양이는...! 이 고양이 녀석 또 도망쳤다! 이번엔 어디 있는거야??\n\n
     옆집 아주머니께 고양이 찾는 팁을 여쭤보니 고양이가 들어갈 만한 버킷을 문 앞에 두고 'whereismycat'이라고 외치면 하루 안에 고양이가 마법처럼 돌아온다고 한다. 한 번 시도해보자!\n\n
-    (HINT: s3 bucket)"
+    (HINT: s3 bucket)\n\n
+    Flag Foarmat: FLAG{~~}
+    "
 value: 50
 
 type: dynamic
@@ -20,9 +22,6 @@ connection_info: ""
 
 flags:
     - "FLAG{yOu_C4n'7_E5capE_TwicE!}"
-
-files:
-    - dist/format_it.zip
 
 
 state: visible
