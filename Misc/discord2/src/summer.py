@@ -16,43 +16,36 @@ async def on_ready():
 
 
 # 주사위 기능
-def dicedefine(i):
-    dice0 = {1: '⚀=1', 2: '⚁=2', 3: '⚂=3', 4: '⚃=4', 5: '⚄=5', 6: '⚅=6'}  # 딕셔너리
+def randomdice():
+    dice0 = {1: '⚀=1', 2: '⚁=2', 3: '⚂=3', 4: '⚃=4', 5: '⚄=5', 6: '⚅=6'} 
     dice = random.randint(1, 7)
-    dice1 = dice0[dice]
-    return dice1 if i == 1 else (dice, dice1)
+    return dice, dice0[dice]
 
 
 @bot.command()
 async def dice(ctx, text):
-    if text is None:  # 추가 입력이 없으면 하나만 굴림
-        embed = discord.Embed(title="주사위 굴리는 중..", color=0x4432a8)
-        dice1 = dicedefine(1)
-        embed.add_field(name=":game_die:", value=f"{dice1}", inline=True)
-        await ctx.send(embed=embed)
-    else:  # 추가 입력이 있음
-        if text.isdigit():  # 입력이 숫자인지 확인
-            if int(text) < 11:
-                embed = discord.Embed(title="주사위 굴리는 중..", color=0x4432a8)
-                _sum = 0  # 주사위 합
-                text = int(text)
-                for i in range(text):
-                    buf, dice1 = dicedefine(2)
-                    _sum += buf
-                    embed.add_field(name=f"{i+1}:game_die:", value=f"{dice1}", inline=True)
-                embed.set_footer(text=f"주사위의 합 = {_sum}")
-                if _sum > 40:
-                    embed.add_field(name="You Got It!", value="HACK{D1sc0rd_B0t_Als0", inline=False)
-                await ctx.send(embed=embed)
-            else:
-                await ctx.send("너무 커요!!")
+    dice0 = {1: '⚀=1', 2: '⚁=2', 3: '⚂=3', 4: '⚃=4', 5: '⚄=5', 6: '⚅=6'} 
+    _sum = 0  # 주사위 합
+    
+    if text.isdigit(): 
+        if int(text) < 11:
+            embed = discord.Embed(title="주사위 굴리는 중..", color=0x4432a8)
+            for i in range(1, int(text)+1):
+                dice = random.randint(1, 6)
+                _sum += dice
+                embed.add_field(name=f"{i}:game_die:", value=f"{dice0[dice]}", inline=True)
+            embed.set_footer(text=f"주사위의 합 = {_sum}")
+            if _sum > 35:
+                embed.add_field(name="You Got It!", value="HACK{D1sc0rd_B0t_Als0", inline=False)
+            await ctx.send(embed=embed)
         else:
-            await ctx.send("숫자만 가능합니다.")
+            await ctx.send("너무 커요!!")
+    else:
+        await ctx.send("숫자만 가능합니다.")
 
-
-def dice():
-    a = random.randint(4, 7)
-    b = random.randint(1, 7)
+def play_dice():
+    a = random.randint(4, 6)  
+    b = random.randint(1, 6) 
     if a > b:
         return "패배", 0xFF0000, str(a), str(b)
     elif a == b:
@@ -63,7 +56,7 @@ def dice():
 
 @bot.command()
 async def dice2(ctx):
-    result, _color, bot, user = dice()
+    result, _color, bot, user = play_dice()
     embed = discord.Embed(title="주사위 게임 결과", description="무시무시한 여름이를 물리치기 위해서는 여름이를 이겨야 해요!!", color=_color)
     embed.add_field(name="여름이의 숫자", value=f":game_die: {bot}", inline=True)
     embed.add_field(name=f"{ctx.author.name}의 숫자", value=f":game_die: {user}", inline=True)

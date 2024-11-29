@@ -1,0 +1,24 @@
+name: "멈출 수 있으면 멈춰봐"
+author: "유지원"
+category: Pwnable
+description: "ps가 뭐였지 ..  추신 ..? 은 아니야\n\n
+    
+  출제자: 유지원"
+value: 0
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 5
+    minimum: 50
+
+image: null
+host: null
+
+connection_info: "ssh user@31.220.82.212 -p 5113 (pw:password)"
+
+flags:
+    - "HACK{5T0P_Pr0ce55}"
+    
+state: visible
+version: "0.1"
